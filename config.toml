@@ -1,0 +1,21 @@
+baseurl = "/"
+title = "My blog"
+theme = "ghostwriter"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "Ankita's blog"
+    description = "description"
+    github = "https://github.com/XXX"
+    twitter = "https://twitter.com/XXX"
+    email = "XXX@example.com"
+    opengraph = true
+    shareTwitter = true
+    dateform        = "Jan 2, 2006"
+    dateformShort   = "Jan 2"
+    dateformNum     = "2006-01-02"
+    dateformNumTime = "2006-01-02 15:04 -0700"
+
+[Permalinks]
+    post = "/:filename/"
